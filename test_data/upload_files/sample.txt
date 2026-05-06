@@ -1,0 +1,4 @@
+This is a sample text file for upload testing.
+
+It contains multiple lines of text.
+Used for file upload validation tests.

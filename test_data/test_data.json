@@ -1,0 +1,36 @@
+{
+  "valid_users": [
+    {
+      "username": "testuser1",
+      "password": "TestPass123!",
+      "expected_welcome": "Welcome testuser1"
+    },
+    {
+      "username": "testuser2",
+      "password": "SecurePass456!",
+      "expected_welcome": "Welcome testuser2"
+    }
+  ],
+  "invalid_users": [
+    {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "expected_error": "Invalid credentials"
+    },
+    {
+      "username": "",
+      "password": "testpass",
+      "expected_error": "Username is required"
+    },
+    {
+      "username": "testuser",
+      "password": "",
+      "expected_error": "Password is required"
+    }
+  ],
+  "test_config": {
+    "default_timeout": 10,
+    "max_retry": 3,
+    "screenshot_on_failure": true
+  }
+}
