@@ -2,12 +2,6 @@
 Base Page
 Parent class for all page objects.
 Contains common methods that all pages can use.
-
-Updated for Appium 2.x:
-- swipe helpers now delegate to Gestures (which use W3C ActionBuilder internally)
-- Added activate_app() / terminate_app() replacing launch_app() / close_app()
-- Added execute_mobile() convenience passthrough
-- Added get_clipboard_text() / set_clipboard_text()
 """
 from utilities.gestures import Gestures
 from utilities.common_utils import CommonUtils

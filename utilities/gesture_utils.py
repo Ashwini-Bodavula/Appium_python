@@ -1,14 +1,6 @@
 """
 Gesture Utilities (GestureUtils)
 Reusable standalone gesture helpers for mobile automation.
-
-Updated for Appium 2.x:
-- Removed deprecated from appium.webdriver.common.touch_action import TouchAction
-- All gestures now use W3C Actions API (ActionBuilder + PointerInput)
-- App lifecycle: launch_app/close_app/reset replaced with activate_app/terminate_app
-- press_keycode() replaced with mobile: pressKey execute_script for broader compatibility
-- Added: execute_mobile() helper, activate_app(), terminate_app(), query_app_state()
-- Added: set_clipboard(), get_clipboard() for clipboard interaction
 """
 import time
 from appium.webdriver.common.appiumby import AppiumBy

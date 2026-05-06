@@ -1,11 +1,6 @@
 """
 Configuration Reader Utility
 Reads configuration from config.ini file
-
-Updated for Appium 2.x:
-- Capabilities now use W3C standard keys (platformName, appium:xxx)
-- automationName, appPackage, etc. require 'appium:' prefix in W3C mode
-  (AppiumOptions.load_capabilities handles this automatically)
 """
 import configparser
 import os

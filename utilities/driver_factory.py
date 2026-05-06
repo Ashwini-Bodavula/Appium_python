@@ -1,11 +1,6 @@
 """
 Driver Factory
 Manages Appium driver initialization and teardown
-
-Updated for Appium 2.x:
-- Replaced deprecated desired_caps dict with AppiumOptions
-- appium.webdriver.Remote requires options= kwarg (not positional desired_capabilities)
-- Appium 2.x server base URL: http://127.0.0.1:4723 (no /wd/hub suffix needed)
 """
 from appium import webdriver
 from appium.options import AppiumOptions

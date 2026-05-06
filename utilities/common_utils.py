@@ -1,16 +1,6 @@
 """
 Common Utilities
 Contains helper methods for waits, screenshots, alerts, keyboards, app management, etc.
-
-Updated for Appium 2.x:
-- launch_app() / close_app() / reset() → activate_app() / terminate_app()
-- set_network_connection() / network_connection → execute_script('mobile: setConnectivity', ...)
-- shake() still valid on iOS (XCUITest)
-- lock() / unlock() / is_locked() still valid (driver methods)
-- Added: get_clipboard_text(), set_clipboard_text()
-- Added: execute_mobile() convenience wrapper for mobile: commands
-- get_device_time() still valid
-- install_app() / remove_app() / is_app_installed() still valid
 """
 import os
 from datetime import datetime

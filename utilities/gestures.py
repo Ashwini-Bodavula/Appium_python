@@ -1,15 +1,6 @@
 """
 Gestures Utility
 Comprehensive collection of mobile gesture methods including swipe, scroll, tap, long press, etc.
-
-Updated for Appium 2.x / Selenium 4.x:
-- Removed deprecated driver.swipe() → replaced with W3C Actions API
-- Removed deprecated TouchAction / MultiAction → replaced with ActionBuilder + PointerInput
-- pinch/zoom now use two simultaneous PointerInput sequences
-- All gestures use selenium.webdriver.common.actions (W3C compliant)
-- Added: activate_app(), terminate_app(), query_app_state() replacing launch/close/reset
-- Added: is_element_checked(), get_attribute(), execute_mobile_command() helpers
-- Added: two-finger pinch/zoom with proper multi-touch sequence
 """
 import time
 from appium.webdriver.common.appiumby import AppiumBy
